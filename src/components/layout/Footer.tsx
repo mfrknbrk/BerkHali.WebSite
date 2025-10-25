@@ -47,20 +47,20 @@ const Footer = ({
         <>
             <ScrollButton />
             <footer className="bb-footer margin-t-50">
-                <div className="footer-directory padding-tb-50">
+                {/* <div className="footer-directory padding-tb-50">
                     <div className="container">
                         <Row>
                             <div className='col-12'>
-                                <Fade triggerOnce direction='up' duration={1000} delay={200}>
-                                    <div className="directory-title">
+                                <Fade triggerOnce direction='up' duration={1000} delay={200}> */}
+                                    {/* <div className="directory-title">
                                         <h4>Brands Directory</h4>
-                                    </div>
-                                    <div className="directory-contact">
+                                    </div> */}
+                                    {/* <div className="directory-contact">
                                         <Row>
                                             <Col lg={6} className='col-12'>
                                                 <div className="inner-contact">
-                                                    <ul>
-                                                        <li>
+                                                    <ul> */}
+                                                        {/* <li>
                                                             <span>Jewellery :</span>
                                                         </li>
                                                         <li>
@@ -214,8 +214,8 @@ const Footer = ({
                                                         </li>
                                                         <li>
                                                             <Link href="/shop-left-sidebar-col-3">Lipstick</Link>
-                                                        </li>
-                                                    </ul>
+                                                        </li> */}
+                                                    {/* </ul>
                                                 </div>
                                             </Col>
                                         </Row>
@@ -224,7 +224,7 @@ const Footer = ({
                             </div>
                         </Row>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer-container">
                     <div className="footer-top padding-tb-50">
                         <div className="container">
