@@ -117,7 +117,7 @@ function ShopSidebar({
                 </div>
                 <div className="bb-sidebar-block">
                     <div className="bb-sidebar-title">
-                        <h3>Weight</h3>
+                        <h3>Uzunluk</h3>
                     </div>
                     <div className="bb-sidebar-contact">
                         <ul>
