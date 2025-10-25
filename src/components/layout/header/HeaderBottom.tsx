@@ -69,10 +69,10 @@ const HeaderBottom = () => {
                                 <div className="bb-main-menu" id="navbarSupportedContent">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <Link className="nav-link" href="/">Home</Link>
+                                            <Link className="nav-link" href="/">Ana Sayfa</Link>
                                         </li>
                                         <li className="nav-item bb-main-dropdown">
-                                            <Link className="nav-link bb-dropdown-item" href="">Categories</Link>
+                                            <Link className="nav-link bb-dropdown-item" href="">Ürünler</Link>
                                             <ul className="mega-menu">
                                                 <li>
                                                     <ul className="mega-block">
@@ -170,13 +170,13 @@ const HeaderBottom = () => {
                                                             fill="#000000" opacity="1" data-original="#000000" >
                                                         </path>
                                                     </g>
-                                                </svg> {" "} Offers
+                                                </svg> {" "} Kampanya
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="bb-dropdown-menu">
-                                    <div className="inner-select">
+                                    {/* <div className="inner-select">
 
                                         <svg className="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -200,7 +200,7 @@ const HeaderBottom = () => {
                                                 </div>
                                             </Dropdown>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
