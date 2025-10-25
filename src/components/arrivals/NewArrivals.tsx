@@ -73,8 +73,8 @@ const NewArrivals = ({
                             <Fade triggerOnce direction='up' duration={1000} delay={200} >
                                 <div className="section-title bb-deal">
                                     <div className="section-detail">
-                                        <h2 className="bb-title">New <span>Arrivals</span></h2>
-                                        <p>Shop online for new arrivals and get free shipping!</p>
+                                        <h2 className="bb-title">Kampanyalı <span>Halılar</span></h2>
+                                        <p>Sınırlı stok, özel indirimler sizi bekliyor.</p>
                                     </div>
                                     <TabList className="bb-pro-tab">
                                         <ul className="bb-pro-tab-nav nav">
@@ -82,25 +82,25 @@ const NewArrivals = ({
                                                 style={{ outline: "none" }}
                                                 className="nav-item"
                                                 key={"all"}>
-                                                <a className={`nav-link ${selectedIndex == 0 ? "active" : ""}`} onClick={() => handleProductClick(0)}>All</a>
+                                                <a className={`nav-link ${selectedIndex == 0 ? "active" : ""}`} onClick={() => handleProductClick(0)}>Düz</a>
                                             </Tab>
                                             <Tab
                                                 style={{ outline: "none" }}
                                                 className="nav-item"
                                                 key={"snack"}>
-                                                <a className={`nav-link ${selectedIndex == 1 ? "active" : ""}`} onClick={() => handleProductClick(1)} data-bs-toggle="tab">Snack & Spices</a>
+                                                <a className={`nav-link ${selectedIndex == 1 ? "active" : ""}`} onClick={() => handleProductClick(1)} data-bs-toggle="tab">Kampanyalı</a>
                                             </Tab>
                                             <Tab
                                                 style={{ outline: "none" }}
                                                 className="nav-item"
                                                 key={"fruit"}>
-                                                <a className={`nav-link ${selectedIndex == 2 ? "active" : ""}`} onClick={() => handleProductClick(2)}>Fruits</a>
+                                                <a className={`nav-link ${selectedIndex == 2 ? "active" : ""}`} onClick={() => handleProductClick(2)}>Çizgili</a>
                                             </Tab>
                                             <Tab
                                                 style={{ outline: "none" }}
                                                 className="nav-item"
                                                 key={"veg"}>
-                                                <a className={`nav-link ${selectedIndex == 3 ? "active" : ""}`} onClick={() => handleProductClick(3)}>Vegetables</a>
+                                                <a className={`nav-link ${selectedIndex == 3 ? "active" : ""}`} onClick={() => handleProductClick(3)}>Renkli</a>
                                             </Tab>
                                         </ul>
                                     </TabList>
