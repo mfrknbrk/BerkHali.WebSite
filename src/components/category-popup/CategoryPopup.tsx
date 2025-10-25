@@ -41,36 +41,36 @@ const CategoryPopup = ({
                             <Col sm={12}>
                                 <div className="bb-category-tags">
                                     <div className="sub-title">
-                                        <h4>keywords</h4>
+                                        <h4>Anahtar Kelimeler</h4>
                                     </div>
                                     <div className="bb-tags">
                                         <ul>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Clothes</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Ofis</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Fruits</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Ev</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Snacks</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Otel</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Dairy</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Hastane</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Seafood</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Okul</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Toys</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Fuar</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">perfume</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Spor Salonu</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">jewelry</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Polyamid</a>
                                             </li>
                                             <li>
-                                                <a onClick={(e) => e.preventDefault()} href="#">Bags</a>
+                                                <a onClick={(e) => e.preventDefault()} href="#">Polipropilen</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -80,7 +80,7 @@ const CategoryPopup = ({
                                 <Row>
                                     <div className="col-12">
                                         <div className="sub-title">
-                                            <h4>Explore Categories</h4>
+                                            <h4>Kategorileri Keşfet</h4>
                                         </div>
                                     </div>
                                     {getData().map((data: any, index: any) => (
@@ -91,7 +91,7 @@ const CategoryPopup = ({
                                                 </div>
                                                 <div className="category-sub-contact">
                                                     <h5><Link href="/shop-left-sidebar-col-3">{data.name}</Link></h5>
-                                                    <p>{data.item} items</p>
+                                                    <p>{data.item} ürün</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -102,7 +102,7 @@ const CategoryPopup = ({
                                 <Row>
                                     <div className="col-12">
                                         <div className="sub-title">
-                                            <h4>Related products</h4>
+                                            <h4>Çok Satan Ürünler</h4>
                                         </div>
                                     </div>
                                     {getRelatedData().map((data: any, index: any) => (
