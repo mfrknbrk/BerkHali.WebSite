@@ -159,7 +159,7 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
                                     <div className="bb-flex-justify">
                                         <div className="bb-header-buttons">
                                             <div className="bb-acc-drop">
-                                                <Link onClick={(e) => e.preventDefault()} href="#"
+                                                {/* <Link onClick={(e) => e.preventDefault()} href="#"
                                                     className="bb-header-btn bb-header-user dropdown-toggle bb-user-toggle"
                                                     title="Account">
                                                     <div className="header-icon">
@@ -173,7 +173,7 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
                                                         <span className="bb-btn-title">Account</span>
                                                         <span className="bb-btn-stitle">{isAuthenticated ? "Logout" : "Login"}</span>
                                                     </div>
-                                                </Link>
+                                                </Link> */}
                                                 <ul className="bb-dropdown-menu">
                                                     {isAuthenticated ? (
                                                         <>
@@ -201,11 +201,11 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
                                                 </div>
                                                 <div className="bb-btn-desc">
                                                     <span className="bb-btn-title"><b className="bb-wishlist-count">{wishlistItem.length} </b>
-                                                        items</span>
-                                                    <span className="bb-btn-stitle">Wishlist</span>
+                                                        Ürün</span>
+                                                    <span className="bb-btn-stitle">Favorilerim</span>
                                                 </div>
                                             </Link>
-                                            <Link onClick={openCart} className="bb-header-btn bb-cart-toggle" href="#" title="Cart">
+                                            {/* <Link onClick={openCart} className="bb-header-btn bb-cart-toggle" href="#" title="Cart">
                                                 <div className="header-icon">
                                                     <svg className="svg-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -217,7 +217,7 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
                                                     <span className="bb-btn-title"><b className="bb-cart-count">{cartSlice.length}</b> items</span>
                                                     <span className="bb-btn-stitle">Cart</span>
                                                 </div>
-                                            </Link>
+                                            </Link> */}
                                             <Link onClick={openMobileManu} href="#" className="bb-toggle-menu">
                                                 <div className="header-icon">
                                                     <i className="ri-menu-3-fill"></i>
