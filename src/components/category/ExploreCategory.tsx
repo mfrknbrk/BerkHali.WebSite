@@ -55,15 +55,15 @@ const ExploreCategory = ({
             <Col lg={5} className="col-12 mb-24">
               <div className="bb-category-img">
                 <img src="/assets/img/category/category.jpg" alt="category" />
-                <div className="bb-offers">
+                {/* <div className="bb-offers">
                   <span>50% Off</span>
-                </div>
+                </div> */}
               </div>
             </Col>
             <Col lg={7} className="col-12 mb-24">
               <div className="bb-category-contact">
                 <div className="category-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                  <h2>Explore Categories</h2>
+                  <h2>Kategorileri Keşfet</h2>
                 </div>
                 <Swiper {...settings} className="bb-category-block owl-carousel">
                   {data && data.length > 0 ? data.map((data: any, index: any) => (
@@ -74,7 +74,7 @@ const ExploreCategory = ({
                         </div>
                         <div className="category-sub-contact">
                           <h5><Link href="/shop-left-sidebar-col-3">{data.name}</Link></h5>
-                          <p>{data.item} items</p>
+                          <p>{data.item} ürün</p>
                         </div>
                       </div>
                     </SwiperSlide>
