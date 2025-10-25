@@ -17,9 +17,9 @@ const BannerOne = () => {
                                             <img src="/assets/img/banner-one/one.png" alt="one" />
                                         </div>
                                         <div className="inner-contact">
-                                            <h5>Tasty Snack & Fast food</h5>
-                                            <p>The flavour of something special</p>
-                                            <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Shop Now</Link>
+                                            <h5>Avantajlı Halılar</h5>
+                                            <p>Sınırlı stok, özel indirimler sizi bekliyor.</p>
+                                            <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Keşfet</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -33,9 +33,9 @@ const BannerOne = () => {
                                             <img src="/assets/img/banner-one/two.png" alt="two" />
                                         </div>
                                         <div className="inner-contact">
-                                            <h5>Fresh Fruits & Vegetables</h5>
-                                            <p>A healthy meal for every one</p>
-                                            <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Shop Now</Link>
+                                            <h5>Uzman dokunuşlarla tamamladığımız uygulamalar</h5>
+                                            <p>Zeminlerinizi estetik ve dayanıklılıkla buluşturuyoruz.</p>
+                                            <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">İncele</Link>
                                         </div>
                                     </div>
                                 </div>
