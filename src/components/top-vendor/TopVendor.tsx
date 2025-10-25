@@ -20,8 +20,8 @@ const TopVendor = () => {
                         <div className='col-12'>
                             <Fade triggerOnce direction='up' duration={1000} delay={200} className="section-title bb-center">
                                 <div className="section-detail">
-                                    <h2 className="bb-title">Top <span>Vendors</span></h2>
-                                    <p>Discover Our Trusted Partners: Excllence & Reliability in Every choice</p>
+                                    <h2 className="bb-title">Neden <span>Karo Halı ?</span></h2>
+                                    <p>Modern mimarinin vazgeçilmez zemin çözümü: dayanıklı, modüler ve pratik.</p>
                                 </div>
                             </Fade>
                         </div>
@@ -78,10 +78,10 @@ const TopVendor = () => {
                                             <a className={`nav-link  ${selectedIndex == 0 ? "active" : ""}`} onClick={() => handleProductClick(0)} data-bs-toggle="tab" href="#vendors_tab_one">
                                                 <div className="bb-vendors-box">
                                                     <div className="inner-heading">
-                                                        <h5>Mira Fashion Pvt. Ltd.</h5>
-                                                        <span>Sales - 587</span>
+                                                        <h5>Modüler ve Kolay Değiştirilebilir</h5>
+                                                        {/* <span>Sales - 587</span> */}
                                                     </div>
-                                                    <p>Fruits (5) | Vegetables (30) | Snacks (09) </p>
+                                                    <p>Zarar gören veya kirlenen karolar tek tek değiştirilebilir, komple halıyı yenilemeye gerek yoktur. </p>
                                                 </div>
                                             </a>
                                         </Fade>
@@ -92,10 +92,10 @@ const TopVendor = () => {
                                             <a className={`nav-link  ${selectedIndex == 1 ? "active" : ""}`} onClick={() => handleProductClick(1)} data-bs-toggle="tab" href="#vendors_tab_two">
                                                 <div className="bb-vendors-box">
                                                     <div className="inner-heading">
-                                                        <h5>Eelna Fashion Pvt. Ltd.</h5>
-                                                        <span>Sales - 428</span>
+                                                        <h5>Dayanıklı ve Uzun Ömürlü</h5>
+                                                        {/* <span>Sales - 428</span> */}
                                                     </div>
-                                                    <p>Fruits (8) | Vegetables (15) | Snacks (04) </p>
+                                                    <p>Yoğun yaya trafiğine, aşınmaya ve basınca karşı yüksek direnç gösterir.</p>
                                                 </div>
                                             </a>
                                         </Fade>
@@ -106,10 +106,10 @@ const TopVendor = () => {
                                             <a className={`nav-link  ${selectedIndex == 2 ? "active" : ""}`} onClick={() => handleProductClick(2)} data-bs-toggle="tab" href="#vendors_tab_three">
                                                 <div className="bb-vendors-box">
                                                     <div className="inner-heading">
-                                                        <h5>Mario Fashion Pvt. Ltd.</h5>
-                                                        <span>Sales - 1024</span>
+                                                        <h5>Akustik ve Konfor Sağlar</h5>
+                                                        {/* <span>Sales - 1024</span> */}
                                                     </div>
-                                                    <p>Fruits (16) | Vegetables (42) | Snacks (18) </p>
+                                                    <p>Ses yalıtımı yapar, adım seslerini azaltır ve mekânda konforlu bir ortam oluşturur.</p>
                                                 </div>
                                             </a>
                                         </Fade>
@@ -120,10 +120,10 @@ const TopVendor = () => {
                                             <a className={`nav-link  ${selectedIndex == 3 ? "active" : ""}`} onClick={() => handleProductClick(3)} data-bs-toggle="tab" href="#vendors_tab_four">
                                                 <div className="bb-vendors-box">
                                                     <div className="inner-heading">
-                                                        <h5>Maria Fashion Pvt. Ltd.</h5>
-                                                        <span>Sales - 210</span>
+                                                        <h5>Kolay Uygulama ve Bakım</h5>
+                                                        {/* <span>Sales - 210</span> */}
                                                     </div>
-                                                    <p>Fruits (2) | Vegetables (10) | Snacks (03) </p>
+                                                    <p>Döşemesi hızlıdır, taşınabilir ve temizliği klasik halılara göre çok daha pratiktir.</p>
                                                 </div>
                                             </a>
                                         </Fade>
