@@ -48,8 +48,8 @@ const NewsletterModal = () => {
                         </Col>
                         <Col md={6} className="col-12">
                             <div className="bb-popnews-box-content">
-                                <h2>Newsletter.</h2>
-                                <p>Subscribe the BlueBerry to get in touch and get the future update.</p>
+                                <h2>Kaçırılmayacak Kampanya</h2>
+                                <p>Şıklığı ve konforu bir araya getiren karo halılarda özel fırsatlar seni bekliyor.</p>
                                 <Formik
                                     validationSchema={schema}
                                     onSubmit={handleSubmit}
@@ -64,7 +64,7 @@ const NewsletterModal = () => {
                                         return (
                                             <Form noValidate onSubmit={handleSubmit} className="bb-popnews-form" action="#" method="post">
                                                 <Form.Group>
-                                                    <InputGroup>
+                                                    {/* <InputGroup>
                                                         <Form.Control
                                                             type="email"
                                                             className="form-control"
@@ -80,9 +80,9 @@ const NewsletterModal = () => {
                                                         <Form.Control.Feedback type="invalid">
                                                             {errors.email}
                                                         </Form.Control.Feedback>
-                                                    </InputGroup>
+                                                    </InputGroup> */}
                                                 </Form.Group>
-                                                <button type="submit" className="bb-btn-2" name="subscribe">Subscribe</button>
+                                                <button type="submit" className="bb-btn-2" name="subscribe">Keşfet</button>
                                             </Form>
                                         )
                                     }}
