@@ -35,32 +35,32 @@ const Instagram = ({
   if (error) return <div>Failed to load products</div>;
   if (!data) return <div></div>
 
-  return (
-    <section className="section-instagram padding-tb-50">
-      <div className="container">
-        <Row>
-          <div className="col-12">
-            <div className="bb-title">
-              <h3>#Insta</h3>
-            </div>
-            <Swiper {...settings} className="bb-instagram-slider owl-carousel">
-              {data && data.length > 0 ? data.map((each: any, index: any) => (
-                <SwiperSlide key={index}>
-                  <div className="bb-instagram-card">
-                    <div className="instagram-img">
-                      <a onClick={(e) => e.preventDefault()} href="#">
-                        <img src={each.image} alt={`instagram-${index+1}`} />
-                      </a>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              )): <></>}
-            </Swiper>
-          </div>
-        </Row>
-      </div>
-    </section>
-  )
+  // return (
+    // <section className="section-instagram padding-tb-50">
+    //   <div className="container">
+    //     <Row>
+    //       <div className="col-12">
+    //         <div className="bb-title">
+    //           <h3>#Insta</h3>
+    //         </div>
+    //         <Swiper {...settings} className="bb-instagram-slider owl-carousel">
+    //           {data && data.length > 0 ? data.map((each: any, index: any) => (
+    //             <SwiperSlide key={index}>
+    //               <div className="bb-instagram-card">
+    //                 <div className="instagram-img">
+    //                   <a onClick={(e) => e.preventDefault()} href="#">
+    //                     <img src={each.image} alt={`instagram-${index+1}`} />
+    //                   </a>
+    //                 </div>
+    //               </div>
+    //             </SwiperSlide>
+    //           )): <></>}
+    //         </Swiper>
+    //       </div>
+    //     </Row>
+    //   </div>
+    // </section>
+  // )
 }
 
 export default Instagram
