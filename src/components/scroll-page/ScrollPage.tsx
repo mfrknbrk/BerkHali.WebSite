@@ -10,7 +10,7 @@ const ScrollPage = () => {
     <div className="bb-scroll-Page">
       <span className="scroll-bar">
         <a href="#" onClick={(e) => { e.preventDefault(); scrollToPosition(); }}>
-          Scroll Page
+          Sayfayı Kaydır
         </a>
       </span>
     </div>

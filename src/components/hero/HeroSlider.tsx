@@ -22,7 +22,7 @@ const HeroSlider = () => {
                             <a onClick={(e) => e.preventDefault()} href="#">Li</a>
                         </li>
                         <li>
-                            <a onClick={(e) => e.preventDefault()} href="#">Dr</a>
+                            <a onClick={(e) => e.preventDefault()} href="#">Tt</a>
                         </li>
                         <li>
                             <a onClick={(e) => e.preventDefault()} href="#">In</a>
@@ -49,9 +49,9 @@ const HeroSlider = () => {
                                         <Row className="mb-minus-24">
                                             <Col lg={6} className="col-12 order-lg-1 order-2 mb-24">
                                                 <div className="hero-contact">
-                                                    <p>Flat 30% Off</p>
-                                                    <h1>Explore <span>Healthy</span><br></br> & Fresh Fruits</h1>
-                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Shop Now</Link>
+                                                    {/* <p>Flat 30% Off</p> */}
+                                                    <h1>Her Parçada <span>Estetik</span><br></br>Bütününde Şıklık</h1>
+                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Keşfet</Link>
                                                 </div>
                                             </Col>
                                             <Col lg={6} className="col-12 order-lg-2 order-1 mb-24">
@@ -63,9 +63,9 @@ const HeroSlider = () => {
                                         <Row className="mb-minus-24">
                                             <Col lg={6} className="col-12 order-lg-1 order-2 mb-24">
                                                 <div className="hero-contact">
-                                                    <p>Flat 20% Off</p>
-                                                    <h2>Explore <span>Warm</span><br></br> Fast Food & Snacks</h2>
-                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Shop Now</Link>
+                                                    {/* <p>Flat 20% Off</p> */}
+                                                    <h2>Tek Düze Zeminlere <span>Son</span><br></br>Kare Kare Sanat</h2>
+                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Keşfet</Link>
                                                 </div>
                                             </Col>
                                             <Col lg={6} className="col-12 order-lg-2 order-1 mb-24">
@@ -77,9 +77,9 @@ const HeroSlider = () => {
                                         <Row className="row mb-minus-24">
                                             <Col lg={6} className="col-12 order-lg-1 order-2 mb-24">
                                                 <div className="hero-contact">
-                                                    <p>Flat 30% Off</p>
-                                                    <h2>Explore <span>Organic</span><br></br> & Fresh Vegetables</h2>
-                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Shop Now</Link>
+                                                    {/* <p>Flat 30% Off</p> */}
+                                                    <h2>Profesyonel <span>Uygulama</span><br></br>Kusursuz Sonuç </h2>
+                                                    <Link href="/shop-left-sidebar-col-3" className="bb-btn-1">Keşfet</Link>
                                                 </div>
                                             </Col>
                                             <Col lg={6} className="col-12 order-lg-2 order-1 mb-24">
