@@ -19,8 +19,8 @@ const DealSlider = () => {
                         <Fade triggerOnce direction='up' duration={1000} delay={200} >
                             <div className="section-title bb-deal">
                                 <div className="section-detail">
-                                    <h2 className="bb-title">Day of the <span>deal</span></h2>
-                                    <p>{"Don't wait. The time will never be just right."}</p>
+                                    <h2 className="bb-title">Lansman <span>İndirimi</span></h2>
+                                    <p>{"Stoklar Bitmeden Fırsatı Kaçırmayın."}</p>
                                 </div>
                                 <Timer targetDate={targetDate} />
                             </div>
