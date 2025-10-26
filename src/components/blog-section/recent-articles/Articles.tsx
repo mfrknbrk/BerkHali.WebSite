@@ -19,8 +19,8 @@ const Articles = ({
                                 <img src="/assets/img/blog/7.jpg" alt="blog" />
                             </div>
                             <div className="blog-sidebar-contact">
-                                <span>Marketing</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Marketing Guide: 5 Steps to Success.</Link></h4>
+                                <span>Karo Halı Rehberi</span>
+                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Nedir? Avantajları ve Kullanım Alanları?</Link></h4>
                                 <p>February 10, 2025</p>
                             </div>
                         </div>
@@ -29,8 +29,8 @@ const Articles = ({
                                 <img src="/assets/img/blog/8.jpg" alt="blog" />
                             </div>
                             <div className="blog-sidebar-contact">
-                                <span>Business</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Business ideas to grow your business.</Link></h4>
+                                <span>Dayanıklılık & Performans</span>
+                                <h4><Link href="/blog-detail-left-sidebar">En Dayanıklı Karo Halı Türleri ve Özellikleri?</Link></h4>
                                 <p>Jan 1, 2024</p>
                             </div>
                         </div>
@@ -39,8 +39,8 @@ const Articles = ({
                                 <img src="/assets/img/blog/9.jpg" alt="blog" />
                             </div>
                             <div className="blog-sidebar-contact">
-                                <span>Business</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Best way to solve business deal issue.</Link></h4>
+                                <span>Karo Halı Bakımı</span>
+                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Temizliği ve Bakımı Nasıl Yapılır?</Link></h4>
                                 <p>Jun 02, 2024</p>
                             </div>
                         </div>
@@ -49,8 +49,8 @@ const Articles = ({
                                 <img src="/assets/img/blog/10.jpg" alt="blog" />
                             </div>
                             <div className="blog-sidebar-contact">
-                                <span>Customer</span>
-                                <h4><Link href="/blog-detail-left-sidebar">31 customer stats know in 2025.</Link></h4>
+                                <span>Kurulum ve Uygulama</span>
+                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Döşeme Süreci: Adım Adım Uygulama Rehberi</Link></h4>
                                 <p>May 20, 2024</p>
                             </div>
                         </div>

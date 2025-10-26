@@ -123,7 +123,7 @@ const BlogDetails = () => {
             </div>
             <div className="inner-blog-details-contact">
                 <span>May 30,2022</span>
-                <h4 className="sub-title">Marketing Guide: 5 Steps to Success.</h4>
+                <h4 className="sub-title">Marketing </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis inventore fuga at
                     iure voluptate, laudantium commodi officiis provident facere quis quae, laboriosam
                     ducimus nihil molestiae vel beatae numquam assumenda dicta modi. Mollitia soluta ipsa
