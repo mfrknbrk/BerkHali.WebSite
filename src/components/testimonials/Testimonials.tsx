@@ -63,7 +63,7 @@ const Testimonials = ({
                                 <img src="/assets/img/testimonials/img-5.png" alt="testimonials-5" className="testimonials-img-5" />
                                 <img src="/assets/img/testimonials/img-6.png" alt="testimonials-6" className="testimonials-img-6" />
                                 <div className="inner-banner">
-                                    <h4>Testimonials</h4>
+                                    <h4>Referanslar</h4>
                                 </div>
                                 <Slider {...settings} className="testimonials-slider ">
                                     {getData().map((data: any, index: any) => (
