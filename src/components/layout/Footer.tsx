@@ -236,12 +236,12 @@ const Footer = ({
                                         <p className="bb-footer-detail">BlueBerry is the biggest market of grocery products. Get
                                             your daily needs from our store.</p>
                                         <div className="bb-app-store">
-                                            <a onClick={(e) => e.preventDefault()} href="#" className="app-img">
+                                            {/* <a onClick={(e) => e.preventDefault()} href="#" className="app-img">
                                                 <img src="/assets/img/app/android.png" className="adroid" alt="apple" />
                                             </a>
                                             <a onClick={(e) => e.preventDefault()} href="#" className="app-img">
                                                 <img src="/assets/img/app/apple.png" className="apple" alt="apple" />
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </Col>
@@ -294,9 +294,9 @@ const Footer = ({
                                             }}
                                         >
                                             <ul className="align-items-center">
-                                                <li className="bb-footer-link">
+                                                {/* <li className="bb-footer-link">
                                                     <Link href="/about-us">About us</Link>
-                                                </li>
+                                                </li> */}
                                                 <li className="bb-footer-link">
                                                     <Link href="/track-order">Delivery</Link>
                                                 </li>
@@ -309,16 +309,16 @@ const Footer = ({
                                                 <li className="bb-footer-link">
                                                     <Link href="/checkout">Secure payment</Link>
                                                 </li>
-                                                <li className="bb-footer-link">
+                                                {/* <li className="bb-footer-link">
                                                     <Link href="/contact-us">Contact us</Link>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </motion.div>
                                     </div>
                                 </Col>
                                 <Col lg={2} className="bb-footer-service col-12">
                                     <div className="bb-footer-widget">
-                                        <h4 onClick={() => toggleDropdown("account")} className="bb-footer-heading">Account<div className='bb-heading-res'><i className='ri-arrow-down-s-line'></i></div></h4>
+                                        {/* <h4 onClick={() => toggleDropdown("account")} className="bb-footer-heading">Account<div className='bb-heading-res'><i className='ri-arrow-down-s-line'></i></div></h4> */}
                                         <motion.div
                                             className={`bb-footer-links bb-footer-dropdown`}
                                             initial={{ height: 0, opacity: 0, translateY: -20 }}
@@ -336,7 +336,7 @@ const Footer = ({
                                             }}
                                         >
                                             <ul className="align-items-center">
-                                                <li className="bb-footer-link">
+                                                {/* <li className="bb-footer-link">
                                                     <Link href="/login">Sign In</Link>
                                                 </li>
                                                 <li className="bb-footer-link">
@@ -353,7 +353,7 @@ const Footer = ({
                                                 </li>
                                                 <li className="bb-footer-link">
                                                     <Link href="/checkout">Payments</Link>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </motion.div>
                                     </div>
@@ -383,19 +383,19 @@ const Footer = ({
                                                         <span className="mt-15px">
                                                             <i className="ri-map-pin-line"></i>
                                                         </span>
-                                                        <p>971 Lajamni, Motavarachha, Surat, Gujarat, Bharat 394101.</p>
+                                                        <p>Ankara Varlık Gardaaaşş</p>
                                                     </li>
                                                     <li className="bb-footer-link bb-foo-call">
                                                         <span>
                                                             <i className="ri-whatsapp-line"></i>
                                                         </span>
-                                                        <Link href="tel:+009876543210">+00 9876543210</Link>
+                                                        <Link href="tel:+009876543210">+90 545 644 93 24</Link>
                                                     </li>
                                                     <li className="bb-footer-link bb-foo-mail">
                                                         <span>
                                                             <i className="ri-mail-line"></i>
                                                         </span>
-                                                        <Link href="mailto:example@email.com">example@email.com</Link>
+                                                        <Link href="mailto:example@email.com">berkhali@gmail.com</Link>
                                                     </li>
                                                 </ul>
                                             </motion.div>
@@ -409,7 +409,7 @@ const Footer = ({
                                                         <a onClick={(e) => e.preventDefault()} href="#"><i className="ri-facebook-fill"></i></a>
                                                     </li>
                                                     <li className="bb-footer-link">
-                                                        <a onClick={(e) => e.preventDefault()} href="#"><i className="ri-twitter-fill"></i></a>
+                                                        <a onClick={(e) => e.preventDefault()} href="#"><i className="ri-tiktok-fill"></i></a>
                                                     </li>
                                                     <li className="bb-footer-link">
                                                         <a onClick={(e) => e.preventDefault()} href="#"><i className="ri-linkedin-fill"></i></a>
@@ -431,16 +431,16 @@ const Footer = ({
                                 <div className="bb-bottom-info">
                                     <div className="footer-copy">
                                         <div className="footer-bottom-copy ">
-                                            <div className="bb-copy">Copyright © <span id="copyright_year">2024 </span>
-                                                <Link className="site-name" href="/">BlueBerry</Link> all rights reserved.
+                                            <div className="bb-copy">BerkHalı © <span id="copyright_year">2024 </span>
+                                                <Link className="site-name" href="/">tüm hakları saklıdır </Link> 
                                             </div>
                                         </div>
                                     </div>
                                     <div className="footer-bottom-right">
                                         <div className="footer-bottom-payment d-flex justify-content-center">
-                                            <div className="payment-link">
+                                            {/* <div className="payment-link">
                                                 <img src="/assets/img/payment/payment.png" alt="payment" />
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
