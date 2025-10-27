@@ -20,7 +20,7 @@ const Articles = ({
                             </div>
                             <div className="blog-sidebar-contact">
                                 <span>Karo Halı Rehberi</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Nedir? Avantajları ve Kullanım Alanları?</Link></h4>
+                                <h4><Link href="/blog-detail-karo-hali-nedir">Karo Halı Nedir? Avantajları ve Kullanım Alanları?</Link></h4>
                                 <p>February 10, 2025</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Articles = ({
                             </div>
                             <div className="blog-sidebar-contact">
                                 <span>Dayanıklılık & Performans</span>
-                                <h4><Link href="/blog-detail-left-sidebar">En Dayanıklı Karo Halı Türleri ve Özellikleri?</Link></h4>
+                                <h4><Link href="/blog-detail-en-dayanikli-karo-hali">En Dayanıklı Karo Halı Türleri ve Özellikleri?</Link></h4>
                                 <p>Jan 1, 2024</p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const Articles = ({
                             </div>
                             <div className="blog-sidebar-contact">
                                 <span>Karo Halı Bakımı</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Temizliği ve Bakımı Nasıl Yapılır?</Link></h4>
+                                <h4><Link href="/blog-detail-karo-hali-temizligi">Karo Halı Temizliği ve Bakımı Nasıl Yapılır?</Link></h4>
                                 <p>Jun 02, 2024</p>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ const Articles = ({
                             </div>
                             <div className="blog-sidebar-contact">
                                 <span>Kurulum ve Uygulama</span>
-                                <h4><Link href="/blog-detail-left-sidebar">Karo Halı Döşeme Süreci: Adım Adım Uygulama Rehberi</Link></h4>
+                                <h4><Link href="/blog-detail-karo-hali-doseme-sureci">Karo Halı Döşeme Süreci: Adım Adım Uygulama Rehberi</Link></h4>
                                 <p>May 20, 2024</p>
                             </div>
                         </div>
