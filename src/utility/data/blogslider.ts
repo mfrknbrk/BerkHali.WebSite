@@ -5,6 +5,7 @@ const blogslider: any = [
         name: "BH",
         title: "Karo Halı Nedir ? Avantajları ve Kullanım Alanları ?",
         num: 200,
+        link: "/blog-detail-karo-hali-nedir",
     },
     {
         date: "May 10,2023",
@@ -12,6 +13,7 @@ const blogslider: any = [
         name: "BH",
         title: "En Dayanıklı Karo Halı Türleri ve Özellikleri ?",
         num: 400,
+        link: "/blog-detail-en-dayanikli-karo-hali",
     },
     {
         date: "Jan 10,2022",
@@ -19,6 +21,7 @@ const blogslider: any = [
         name: "BH",
         title: "Karo Halı Temizliği ve Bakımı Nasıl Yapılır ?",
         num: 600,
+        link: "/blog-detail-karo-hali-temizligi",
     },
     {
         date: "Feb 12,2022",
@@ -26,6 +29,7 @@ const blogslider: any = [
         name: "BH",
         title: "Karo Halı Döşeme Süreci: Adım Adım Uygulama Rehberi",
         num: 800,
+        link: "/blog-detail-karo-hali-doseme-sureci",
     },
 ]
 

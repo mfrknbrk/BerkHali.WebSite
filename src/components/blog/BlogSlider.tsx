@@ -59,7 +59,7 @@ const BlogSlider = ({
                     </div>
                     <div className="blog-contact">
                       <span>{data.date} - {data.name}</span>
-                      <h4><Link href="/blog-detail-left-sidebar">{data.title}</Link>
+                      <h4><Link href={data.link}>{data.title}</Link>
                       </h4>
                     </div>
                   </div>
