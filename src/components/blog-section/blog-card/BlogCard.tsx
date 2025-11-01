@@ -26,7 +26,7 @@ const BlogCard = ({
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ab illum maiores
                                     error neque amet rem quod consequuntur? Iste, rerum.</p>
                                 <div className="blog-btn">
-                                    <Link href="/blog-detail-left-sidebar" className="bb-btn-2">Read More</Link>
+                                <Link href={`/blog/${data.slug}`} className="bb-btn-2">Read More</Link>
                                 </div>
                             </div>
                         </div>

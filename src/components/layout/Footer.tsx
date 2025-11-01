@@ -383,7 +383,7 @@ const Footer = ({
                                                         <span className="mt-15px">
                                                             <i className="ri-map-pin-line"></i>
                                                         </span>
-                                                        <p>Ankara Varlık Gardaaaşş</p>
+                                                        <p>Ankara Varlik Gardaaaşş</p>
                                                     </li>
                                                     <li className="bb-footer-link bb-foo-call">
                                                         <span>

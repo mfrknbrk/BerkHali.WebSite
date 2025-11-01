@@ -45,7 +45,7 @@ const categoryslider: Category[] = [
     num: 4,
     number: 800,
   },
-  {
+ /* {
     persantine: "",
     icon: "fi fi-tr-french-fries",
     image: "/assets/img/category/5.svg",
@@ -62,6 +62,6 @@ const categoryslider: Category[] = [
     item: 49,
     num: 2,
     number: 800,
-  },
+  },*/
 ];
 export default categoryslider;

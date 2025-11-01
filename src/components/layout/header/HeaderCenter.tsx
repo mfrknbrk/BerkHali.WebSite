@@ -103,10 +103,10 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
 
     const menu = (
         <Menu className='select-options' style={{display: "block", top: "-5px", borderRadius: "10px"}} onClick={handleMenuClick}>
-            <MenuItem key="vegetables">vegetables</MenuItem>
-            <MenuItem key="Bakery">Bakery</MenuItem>
-            <MenuItem key="Cold Drinks">Cold Drinks</MenuItem>
-            <MenuItem key="Fruits">Fruits</MenuItem>
+            <MenuItem key="Düz Halı">Düz Halı</MenuItem>
+            <MenuItem key="Çizgili Halı">Çizgili Halı</MenuItem>
+            <MenuItem key="Renkli Halı">Renkli Halı</MenuItem>
+            <MenuItem key="Kampanyalı">Kampanyalı</MenuItem>
         </Menu>
     );
 
@@ -149,7 +149,7 @@ const HeaderCenter = ({ wishlistItem, cartSlice }: any) => {
                                                     <div className="custom-select">{selectedItem}<i style={{fontSize: "30px"}} className="ri-arrow-drop-down-line"></i></div>
                                                 </div>
                                             </Dropdown>
-                                            <input onChange={handleSearch} className="form-control bb-search-bar" placeholder="Search products..."
+                                            <input onChange={handleSearch} className="form-control bb-search-bar" placeholder="Trend halı modellerini hemen keşfet!"
                                                 type="text" />
                                             <button className="submit" type="submit"><i className="ri-search-line"></i></button>
                                         </form>
